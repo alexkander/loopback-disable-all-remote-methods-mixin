@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "sources": [
+      "./models"
+    ],
+    "mixins": [
+      "../../"
+    ]
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Person": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Animal": {
+    "dataSource": "db",
+    "public": true
+  }
+}

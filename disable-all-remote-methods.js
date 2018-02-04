@@ -1,0 +1,1 @@
+module.exports = require('./lib/loopback-disable-all-remote-methods-mixin');

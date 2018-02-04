@@ -1,0 +1,29 @@
+{
+  "name": "Animal",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "mixins": {
+    "DisableAllRemoteMethods": {
+      "active": false,
+      "debug": true
+    }
+  },
+  "acls": [
+    {
+      "accessType": "EXECUTE",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY",
+      "property": "*"
+    }
+  ]
+}

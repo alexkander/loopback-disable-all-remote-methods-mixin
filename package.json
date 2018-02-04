@@ -1,0 +1,49 @@
+{
+  "name": "loopback-disable-all-remote-methods-mixin",
+  "version": "0.2.3",
+  "description": "Loopback mixin to set what fields can be received in request.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arondn2/loopback-disable-all-remote-methods-mixin.git"
+  },
+  "keywords": [
+    "strongloop",
+    "loopback",
+    "web",
+    "security",
+    "framework",
+    "mixin"
+  ],
+  "author": "Alex J. Rondon <arondn2@gmail.com> (https://github.com/arondn2)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arondn2/loopback-disable-all-remote-methods-mixin/issues"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.0",
+    "istanbul": "^0.4.5",
+    "loopback": "^3.18.1",
+    "loopback-boot": "^2.27.0",
+    "mocha": "^5.0.0",
+    "supertest": "^3.0.0",
+    "supertest-as-promised": "^4.0.2"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "examples",
+    "tests"
+  ],
+  "dependencies": {
+    "loopback-component-explorer": "^5.2.0"
+  }
+}
