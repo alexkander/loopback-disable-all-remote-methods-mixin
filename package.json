@@ -1,6 +1,6 @@
 {
   "name": "loopback-disable-all-remote-methods-mixin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Loopback mixin to set what fields can be received in request.",
   "main": "index.js",
   "scripts": {
