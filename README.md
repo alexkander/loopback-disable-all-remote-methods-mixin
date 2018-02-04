@@ -12,7 +12,7 @@ Loopback mixin to disable remote methods not included in acls.
 
 ## Usage
 
-You must add config setup to `server/model-config.json`.
+Add the mixins property to your `server/model-config.json`:
 
 ```json
 {
@@ -83,7 +83,7 @@ Add mixin params in in model definition. Example:
 }
 ```
 
-In the previous examples, all remote methods (including relations methods) has been disabled, except the methods `find` and `prototype.patchAttributes`. If you open loopback-component-external you will notice that just this methods are visibles.
+In the above definitions, all remote methods (including relations methods) has been disabled, except the methods `find` and `prototype.patchAttributes`. If you open `loopback-component-external` you will notice that just this methods are visible.
 
 ### Troubles
 
@@ -91,7 +91,7 @@ If you have any kind of trouble with it, just let me now by raising an issue on 
 
 https://github.com/arondn2/loopback-disable-all-remote-methods-mixin/issues
 
-Also, you can report the orthographic errors in the READMEs files or comments. Sorry for that, I do not speak English.
+Also, you can report the orthographic errors in the READMEs files or comments. Sorry for that, English is not my main language.
 
 ## Tests
 
@@ -99,6 +99,6 @@ Also, you can report the orthographic errors in the READMEs files or comments. S
 
 ## Thanks
 
-This mixin was written from the code mentioned by [@ericaprieto](https://github.com/ericaprieto) in https://github.com/strongloop/loopback/issues/651.
+This mixin is an adaptation based on the code mentioned by [@ericaprieto](https://github.com/ericaprieto) in https://github.com/strongloop/loopback/issues/651.
 
-Also the app-sample for tests is based in app used for tests of [@ericaprieto](https://github.com/clarkbw) in https://github.com/clarkbw/loopback-ds-timestamp-mixin/tree/master/test/fixtures/simple-app
+Also the app-sample for tests is based in app used for tests of [@clarkbw](https://github.com/clarkbw) in https://github.com/clarkbw/loopback-ds-timestamp-mixin/tree/master/test/fixtures/simple-app
