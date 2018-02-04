@@ -6,10 +6,7 @@
     "validateUpsert": true
   },
   "properties": {
-    "name": {
-      "type": "string",
-      "required": false
-    }
+    "name": "string"
   },
   "mixins": {
     "DisableAllRemoteMethods": {
