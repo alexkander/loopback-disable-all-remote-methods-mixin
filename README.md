@@ -99,6 +99,6 @@ Also, you can report the orthographic errors in the READMEs files or comments. S
 
 ## Thanks
 
-This mixin was written from the code mentioned by @ericaprieto on https://github.com/strongloop/loopback/issues/651.
+This mixin was written from the code mentioned by [@ericaprieto](https://github.com/ericaprieto) on https://github.com/strongloop/loopback/issues/651.
 
-Also the app-sample for test is based in test app from @clarkbw in https://github.com/clarkbw/loopback-ds-timestamp-mixin/tree/master/test/fixtures/simple-app
+Also the app-sample for test is based in test app from [@ericaprieto](https://github.com/clarkbw) in https://github.com/clarkbw/loopback-ds-timestamp-mixin/tree/master/test/fixtures/simple-app
