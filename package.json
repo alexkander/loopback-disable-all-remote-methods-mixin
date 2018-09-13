@@ -1,9 +1,10 @@
 {
   "name": "loopback-disable-all-remote-methods-mixin",
   "version": "0.1.1",
-  "description": "Loopback mixin to set what fields can be received in request.",
+  "description": "Loopback mixin to disable remote methods not included in ACLs",
   "main": "index.js",
   "scripts": {
+    "vpublish": "npm version patch -m \"Version %s\" && npm publish",
     "test": "mocha --reporter spec",
     "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
@@ -31,8 +32,9 @@
     "chai": "^4.1.2",
     "coveralls": "^3.0.0",
     "istanbul": "^0.4.5",
-    "loopback": "^3.18.1",
-    "loopback-boot": "^2.27.0",
+    "loopback": "^3.22.3",
+    "loopback-boot": "^2.27.1",
+    "loopback-component-explorer": "^6.2.0",
     "mocha": "^5.0.0",
     "supertest": "^3.0.0",
     "supertest-as-promised": "^4.0.2"
@@ -43,7 +45,5 @@
     "examples",
     "tests"
   ],
-  "dependencies": {
-    "loopback-component-explorer": "^5.2.0"
-  }
+  "dependencies": {}
 }
