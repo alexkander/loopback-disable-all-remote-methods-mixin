@@ -2,6 +2,6 @@
 
 const DisableAllRemoteMethods = require('./disable-all-remote-methods');
 
-module.exports = unction (app) {
+module.exports = function (app) {
   app.loopback.modelBuilder.mixins.define('DisableAllRemoteMethods', DisableAllRemoteMethods);
 };
