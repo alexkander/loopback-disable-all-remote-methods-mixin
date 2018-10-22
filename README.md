@@ -85,7 +85,7 @@ Add mixin params in in model definition. Example:
 
 In the above definitions, all remote methods (including relations methods) has been disabled, except the methods `find` and `prototype.patchAttributes`. If you open `loopback-component-external` you will notice that just this methods are visible.
 
-### Troubles
+## Troubles
 
 If you have any kind of trouble with it, just let me now by raising an issue on the GitHub issue tracker here:
 
