@@ -1,6 +1,6 @@
 var loopback = require('loopback');
 var boot = require('loopback-boot');
-var explorer = require('loopback-component-explorer');  // Module was loopback-explorer in v. 2.0.1 and earlier
+// var explorer = require('loopback-component-explorer');  // Module was loopback-explorer in v. 2.0.1 and earlier
 
 var app = module.exports = loopback();
 
@@ -12,7 +12,7 @@ app.start = function() {
   });
 };
 
-app.use('/explorer', explorer.routes(app, {}));
+// app.use('/explorer', explorer.routes(app, {}));
 app.use('/api', loopback.rest());
 app.enableAuth();
 
